@@ -14,13 +14,14 @@ body {
   margin: 200px;
   display: flex;
   width: 800px;
-  height: 420px;
+  height: 1600px;
   justify-content: center;
 }
 
 .cards {
   display: flex;
   width: 15rem;
+  height: 420px;
   flex-direction: column;
   padding: 2em;
   border-radius: 2px;
@@ -82,4 +83,13 @@ div#luxury > .btn:hover {
   color: white;
   border-color: white;
   background-color: var(--luxury-primary-color);
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .cards {
+    border-radius: 5px;
+  }
 }
