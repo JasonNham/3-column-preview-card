@@ -21,7 +21,7 @@ body {
 .cards {
   display: flex;
   width: 15rem;
-  height: 420px;
+  height: 350px;
   flex-direction: column;
   padding: 2em;
   border-radius: 2px;
@@ -88,6 +88,7 @@ div#luxury > .btn:hover {
 @media only screen and (max-width: 800px) {
   .container {
     flex-direction: column;
+    margin: 0px 200px;
   }
   .cards {
     border-radius: 5px;
