@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+:root {
+  --sedan-primary-color: hsl(31, 77%, 52%);
+  --suv-primary-color: hsl(184, 100%, 22%);
+  --luxury-primary-color: hsl(179, 100%, 13%);
+}
+
+body {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  margin: 200px;
+  display: flex;
+  width: 800px;
+  height: 420px;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  width: 15rem;
+  flex-direction: column;
+  padding: 2em;
+  border-radius: 2px;
+}
+
+div > p {
+  font-size: 1em;
+  padding-bottom: 2.5em;
+  line-height: 1.5;
+}
+
+#sedan {
+  background-color: var(--sedan-primary-color);
+}
+
+#suv {
+  background-color: var(--suv-primary-color);
+}
+
+#luxury {
+  background-color: var(--luxury-primary-color);
+}
+
+/* Buttons */
+.btn {
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  width: 7rem;
+  height: 2.5rem;
+}
+
+div#sedan > .btn {
+  font-size: 1em;
+  border-color: var(--sedan-primary-color);
+  color: var(--sedan-primary-color);
+}
+div#sedan > .btn:hover {
+  color: white;
+  border-color: white;
+  background-color: var(--sedan-primary-color);
+}
+
+div#suv > .btn {
+  font-size: 1em;
+  color: var(--suv-primary-color);
+}
+div#suv > .btn:hover {
+  color: white;
+  border-color: white;
+  background-color: var(--suv-primary-color);
+}
+
+div#luxury > .btn {
+  font-size: 1em;
+  color: var(--luxury-primary-color);
+}
+div#luxury > .btn:hover {
+  color: white;
+  border-color: white;
+  background-color: var(--luxury-primary-color);
+}
