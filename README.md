@@ -62,8 +62,7 @@ I've been independently studying semantic HTML and CSS on my own for awhile, I h
 
 ### Useful resources
 
-- [CSS Tricks](css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - This website was extremely helpful in helping me when I would forget or not understand what certain CSS Flexbox properties would do.
+- [CSS Tricks](css-tricks.com/snippets/css/a-guide-to-flexbox/) - This website was extremely helpful in helping me when I would forget or not understand what certain CSS Flexbox properties would do.
 - [W3Schools](w3schools.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
